@@ -11,3 +11,8 @@ html {
 .logo {
   width: 100px;
 }
+
+.videoDescription {
+  padding: 15px;
+  padding-left: 2rem;
+}
