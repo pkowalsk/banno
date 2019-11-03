@@ -6,3 +6,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Semantic UI React was added for UI styling
 
+To run, you need to change the API Key in App.jsx line 22:
+`window.gapi.client.setApiKey('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');`
