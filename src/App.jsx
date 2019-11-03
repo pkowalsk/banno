@@ -33,7 +33,6 @@ class App extends React.Component {
         'part': 'snippet',
         'maxResults': 25,
         'q': searchTerm,
-        'type': 'video',
         'order': sort
       })
       .then((response) => {
