@@ -18,8 +18,9 @@ class App extends React.Component {
   }
 
   loadYoutubeApi = () => {
+    // AIzaSyA087hQUUOEDdrswcMtIvTFlvG0z7pxJjE
     window.gapi.load('client', () => {
-      window.gapi.client.setApiKey('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+      window.gapi.client.setApiKey('AIzaSyA087hQUUOEDdrswcMtIvTFlvG0z7pxJjE');
 
       window.gapi.client.load('youtube', 'v3', () => {
         this.setState({ gapiReady: true });

@@ -34,7 +34,7 @@ class SearchResults extends React.Component {
             <Divider />
             <List divided relaxed>
                {this.state.videos.map(video =>
-                  <VideoDetails key={video.id.videoId} video={video} stats={ this.state.stats.filter(stat => stat.id === video.id.videoId )} />
+                  <VideoDetails key={video.etag} video={video} stats={ this.state.stats.filter(stat => stat.id === video.id.videoId )} />
                )}
             </List>
          </Container>
